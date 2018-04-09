@@ -6,7 +6,6 @@ var io = require('socket.io')(http);
 app.get('/', function(req, res){
         res.send('<h1>Hello world<h1>');
 });
-//test
 
 http.listen(6969, function() {
         console.log('listening on *:6969');
