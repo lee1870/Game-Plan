@@ -1,0 +1,24 @@
+{
+  "name": "game-plan",
+  "version": "1.0.0",
+  "description": "Game plan is a turnbased strategy combat game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee1870/Game-Plan.git"
+  },
+  "author": "Tyler Rex, James Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lee1870/Game-Plan/issues"
+  },
+  "homepage": "https://github.com/lee1870/Game-Plan#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0",
+    "sqlite3": "^4.0.0"
+  }
+}
