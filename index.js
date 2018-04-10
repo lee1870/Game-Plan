@@ -10,7 +10,7 @@ var sqlite3 = require('sqlite3').verbose();
 //if the database is NOT found, create one
 var db = new sqlite3.Database('Game-Plan users');
 db.serialize(function() {
-    db.run("CREATE TABLE user (username TEXT, password TEXT, level INT)");
+    db.run("CREATE TABLE IF NOT EXISTS user (username TEXT, password TEXT, level INT)");
 
 });
 /*
@@ -21,7 +21,12 @@ function createDb(){
 app.get('/', function(req, res){
     res.send('<h1>Hello world<h1>');
 });
-
+app.get('/createnewuser', function(req,res){
+    res.send('<h1>Create New User Menu<h1>');
+});
+app.get('/play', function(req,res){
+    res.send('<h1>Play game<h1>');
+});
 http.listen(6969, function() {
     console.log('listening on *:6969');
 })
