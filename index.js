@@ -24,8 +24,7 @@ app.get('/', function(req, res){
     console.log("We've got a visitor!");
 });
 app.get('/createnewuser', function(req,res){
-    res.send('<h1>Create New User Menu<h1>');
-    res.send('<h2>Please enter your credentials here!<h2>');
+    res.sendFile(__dirname + '/createAccount.html');
 //    res.send('<form action="/action_page.php">');
 //        res.send('First name: <input type="text" name="fname"><br>');
 //        res.send('Last name: <input type="text" name="lname"><br>');
