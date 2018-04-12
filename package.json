@@ -19,6 +19,7 @@
   "homepage": "https://github.com/lee1870/Game-Plan#readme",
   "dependencies": {
     "express": "^4.16.3",
+    "firebase": "^4.12.1",
     "nodemon": "^1.17.3",
     "socket.io": "^2.1.0",
     "sqlite3": "^4.0.0"

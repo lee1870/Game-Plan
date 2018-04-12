@@ -3,6 +3,7 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var sqlite3 = require('sqlite3').verbose();
+var firebase = require('firebase');
 //var db = new sqlite3(':memory:');
 //var database = require('sqlite3.js');
 //var db = openDatabase('mydb', '4.0.0', 'my first database', 2 * 1024 * 1024);
