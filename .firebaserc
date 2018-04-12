@@ -1,5 +1,5 @@
-git {
+{
   "projects": {
-    "default": "game-plan-4263"
+    "Game-Plan": "game-plan-4263"
   }
 }
