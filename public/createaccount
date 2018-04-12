@@ -7,7 +7,7 @@
     <form>
       Username:<br>
       <input type="text" name ="username"><br>
-      Password:
+      Password:<br>
       <input type"password" name = "password"><br>
       Password Again:<br>
       <input type="password" name = "passwordAgain">
