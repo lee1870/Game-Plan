@@ -1,8 +1,8 @@
 const goToCreateQuestionButton = document.getElementById("goToCreateQuestion");
-const goToPlayGameButton = document.getElementById("goToPlayGameButton");
+//const goToPlayGameButton = document.getElementById("goToPlayGameButton");
 
 goToCreateQuestionButton.addEventListener("click", function() {
-  window.location.href= "createaccount.html";
+  window.location.href= "createQuestion.html";
   
 });
 
