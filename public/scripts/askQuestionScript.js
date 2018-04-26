@@ -1,12 +1,18 @@
 const createQuestionButton = document.getElementById("createQuestion");
 const inputQuestion = document.getElementById("inputQuestion");
-//const questionDatabase = firebase.database().ref().child('Questions');
+//const ionDatabase = firebase.database().ref().child('Questions');
 const inputUser = document.getElementById("inputUser");
 const toIndexButton = document.getElementById("backToIndex");
 createQuestionButton.addEventListener("click", function() {
   console.log("create a question");
   addQuestion(inputQuestion.value, inputUser.value);
-  //window.location.href= "index.html";
+
+  setTimeout(function(){
+    window.location.href= "thanks.html";
+    //do what you need here
+  }, 1000);
+  
+  //window.location.href= "thanks.html";
 });
 toIndexButton.addEventListener("click", function() {
   console.log("going back to index");
@@ -38,3 +44,4 @@ function addQuestion(question, user){
   });*/
 
 }
+

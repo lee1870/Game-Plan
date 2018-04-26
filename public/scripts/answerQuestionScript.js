@@ -16,7 +16,9 @@ function readFromDB() {
     firebase.database().ref().child('Questions').once('value', function (snap) { 
         Object.keys(snap.val()).forEach(function(body) {
             emptyQuestions.push(snap.val()[body]);
-            console.log(snap.val());
+            console.log("TEST1");
+            console.log(Object.keys(snapshot.val())[0]);
+            console.log("TEST2");
         });
 
         // Get a random story
