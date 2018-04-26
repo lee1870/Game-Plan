@@ -1,6 +1,6 @@
 const clickTheButton = document.getElementById("clickButton");
 const dontClickTheButton = document.getElementById("dontClickButton");
-const newQuestion = document.getElementById("newQuestion");
+const createQuestion = document.getElementById("createQuestion");
 //const postComment = document.getElementById("postComment");
 //const commentField = document.getElementById("inputComment");
 //const goToPlayGameButton = document.getElementById("goToPlayGameButton");
@@ -35,11 +35,12 @@ function readFromDB() {
 
 
 clickTheButton.addEventListener("click", function() {
+  numYes = numYes + 1;
   console.log(question);
   console.log("NumYes: " + numYes);
   console.log("NumNo: " + numNo);
-  numYes = numYes + 1;
-  window.location.href= "index.html";
+  localStorage.setItem("numYes", numYes);
+  window.location.href= "results.html";
 });
 
 dontClickTheButton.addEventListener("click", function() {
@@ -47,12 +48,16 @@ dontClickTheButton.addEventListener("click", function() {
   console.log(question);
   console.log("NumYes: " + numYes);
   console.log("NumNo: " + numNo);
+  localStorage.setItem("numNo",numNo);
+  window.location.href= "results.html";
 });
 
-newQuestion.addEventListener("click", function() {
-  readFromDB();
+createQuestion.addEventListener("click", function() {
+//  readFromDB();
   console.log(question);
   console.log("NumYes: " + numYes);
   console.log("NumNo: " + numNo);
+  window.location.href= "askQuestion.html";
   //re render the page
 });
+
