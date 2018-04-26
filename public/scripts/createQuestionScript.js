@@ -26,8 +26,8 @@ function addQuestion(question, user){
   newQuestionRef.set({
     "body": question,
     "user": user,
-    "yes" : "0",
-    "no"  : "0"
+    "yes" : 0,
+    "no"  : 0
   });
   console.log("After pushing new question");
   /*

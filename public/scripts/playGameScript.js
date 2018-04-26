@@ -12,9 +12,11 @@ readFromDB();
 function readFromDB() {
     // Read in the questions in the database
     var emptyQuestions = [];
+    var emptyKeys = [];
     firebase.database().ref().child('Questions').once('value', function (snap) { 
         Object.keys(snap.val()).forEach(function(body) {
             emptyQuestions.push(snap.val()[body]);
+            console.log(snap.val());
         });
 
         // Get a random story
@@ -24,6 +26,9 @@ function readFromDB() {
         question = emptyQuestions[questionIndex].body;
         numYes = emptyQuestions[questionIndex].yes;
         numNo = emptyQuestions[questionIndex].no;
+
+        localStorage.setItem("numNo", numNo);
+        localStorage.setItem("numYes",numYes);
         // Get the base page set up
     });
 }
@@ -33,11 +38,18 @@ clickTheButton.addEventListener("click", function() {
   console.log(question);
   console.log(numYes);
   console.log(numNo);
-  //window.location.href= "createQuestion.html";
+  numYes = numYes + 1;
+  window.location.href= "index.html";
 });
 
 dontClickTheButton.addEventListener("click", function() {
-  
+  numNo = numNo + 1;
 });
 
-
+newQuestion.addEventListener("click", function() {
+  readFromDB();
+  console.log(question);
+  console.log(numYes);
+  console.log(numNo);
+  //re render the page
+});
