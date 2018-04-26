@@ -1,32 +1,32 @@
-[debug] [2018-04-26T07:09:14.065Z] ----------------------------------------------------------------------
-[debug] [2018-04-26T07:09:14.067Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] [2018-04-26T07:09:14.068Z] CLI Version:   3.18.2
-[debug] [2018-04-26T07:09:14.068Z] Platform:      darwin
-[debug] [2018-04-26T07:09:14.068Z] Node Version:  v8.9.4
-[debug] [2018-04-26T07:09:14.071Z] Time:          Thu Apr 26 2018 03:09:14 GMT-0400 (EDT)
-[debug] [2018-04-26T07:09:14.071Z] ----------------------------------------------------------------------
+[debug] [2018-04-26T07:56:03.112Z] ----------------------------------------------------------------------
+[debug] [2018-04-26T07:56:03.115Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-26T07:56:03.115Z] CLI Version:   3.18.2
+[debug] [2018-04-26T07:56:03.115Z] Platform:      darwin
+[debug] [2018-04-26T07:56:03.115Z] Node Version:  v8.9.4
+[debug] [2018-04-26T07:56:03.116Z] Time:          Thu Apr 26 2018 03:56:03 GMT-0400 (EDT)
+[debug] [2018-04-26T07:56:03.116Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-04-26T07:09:14.083Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-04-26T07:09:14.083Z] > authorizing via signed-in user
-[debug] [2018-04-26T07:09:14.086Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/game-plan-4263  
+[debug] [2018-04-26T07:56:03.127Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-26T07:56:03.128Z] > authorizing via signed-in user
+[debug] [2018-04-26T07:56:03.129Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/game-plan-4263  
   
- Thu Apr 26 2018 03:09:14 GMT-0400 (EDT)
-[debug] [2018-04-26T07:09:14.457Z] <<< HTTP RESPONSE 200
-[debug] [2018-04-26T07:09:14.458Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/game-plan-4263/tokens  
+ Thu Apr 26 2018 03:56:03 GMT-0400 (EDT)
+[debug] [2018-04-26T07:56:03.447Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T07:56:03.448Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/game-plan-4263/tokens  
   
- Thu Apr 26 2018 03:09:14 GMT-0400 (EDT)
-[debug] [2018-04-26T07:09:15.180Z] <<< HTTP RESPONSE 200
-[debug] [2018-04-26T07:09:15.181Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/game-plan-4263  
+ Thu Apr 26 2018 03:56:03 GMT-0400 (EDT)
+[debug] [2018-04-26T07:56:03.911Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-26T07:56:03.912Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/game-plan-4263  
   
- Thu Apr 26 2018 03:09:15 GMT-0400 (EDT)
-[debug] [2018-04-26T07:09:15.350Z] <<< HTTP RESPONSE 200
+ Thu Apr 26 2018 03:56:03 GMT-0400 (EDT)
+[debug] [2018-04-26T07:56:04.133Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/tylerrex/Game-Plan/Game-Plan'...
 [info] 
-[debug] [2018-04-26T07:09:15.352Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/335501876781/clients/_:getWebAppConfig  
+[debug] [2018-04-26T07:56:04.136Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/335501876781/clients/_:getWebAppConfig  
   
- Thu Apr 26 2018 03:09:15 GMT-0400 (EDT)
-[debug] [2018-04-26T07:09:15.578Z] <<< HTTP RESPONSE 200
+ Thu Apr 26 2018 03:56:04 GMT-0400 (EDT)
+[debug] [2018-04-26T07:56:04.323Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5000
 
