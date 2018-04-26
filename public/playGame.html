@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAR2FdadMlQgqJAzKJF0mHZGniMMBMS5Rk",
+    authDomain: "game-plan-4263.firebaseapp.com",
+    databaseURL: "https://game-plan-4263.firebaseio.com",
+    projectId: "game-plan-4263",
+    storageBucket: "game-plan-4263.appspot.com",
+    messagingSenderId: "335501876781"
+  };
+  firebase.initializeApp(config);
+</script>
+
+  <body>
+    <h1>So you want to play a game</h1>
+    <p>Would you press the button if?...<br>
+      Question:<br><p>
+    <button id="newQuestion">New Question!</button>
+    <button id="dontClickButton">Dont click the button!</button>
+    <button id="clickButton"> I click the button!</button>
+    <script src="scripts/playGameScript.js"></script>
+  </body>
+</html>
+

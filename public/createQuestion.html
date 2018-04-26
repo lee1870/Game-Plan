@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-
+<!--
 <script>
   var config = {
     apiKey: "AIzaSyAR2FdadMlQgqJAzKJF0mHZGniMMBMS5Rk",
@@ -21,13 +21,13 @@
   <body>
     <h1>So you want to make a question?</h1>
     <p>You aren't welcome here!</p>
-    <p>Well you can make a button if you REEEEEAAAALY want to<p>
-    <form>
-      Question:<br>
-        <input type="text" name ="inputQuestion" id = "inputQuestion"><br>
-    <button>Play Game!</button>
-    <button>Create Account!</button>
+    <p>Well you can make a button if you REEEEEAAAALY want to<br>
+      Question:<br><p>
+    <input type="text" name ="inputQuestion" id = "inputQuestion"><br>
+    <p>Username:<p><br>
+    <input type="text" name ="inputUser" id = "inputUser"><br>
     <button id="createQuestion"> Create a question!</button>
+    <button id="backToIndex">Go Back to Main Page</button>
     <script src="scripts/createQuestionScript.js"></script>
   </body>
 </html>
