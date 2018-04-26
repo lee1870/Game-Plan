@@ -3,7 +3,7 @@
     text-align: center;
     display: grid;
     grid-template-columns: 20vw 10vw 20vw 20vw 10vw 20vw;
-    grid-template-rows: 50vh 15vh 10vh 10vh 15vh;
+    grid-template-rows: 50vh 5vh 15vh 10vh 20vh;
 }
 
 .AskQuestion {
@@ -11,7 +11,31 @@
     text-align: center;
     display: grid;
     grid-template-columns: 20vw 10vw 20vw 20vw 10vw 20vw;
-    grid-template-rows: 50vh 5vh 15vh 10vh 10vh 10vh;
+    grid-template-rows: 50vh 5vh 15vh 10vh 20vh;
+}
+
+.AnswerQuestion {
+    background-color:#1abc9c;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20vw 10vw 20vw 20vw 10vw 20vw;
+    grid-template-rows: 50vh 5vh 15vh 10vh 20vh;
+}
+
+.Thanks {
+    background-color:#1abc9c;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20vw 10vw 20vw 20vw 10vw 20vw;
+    grid-template-rows: 50vh 5vh 15vh 10vh 20vh;
+}
+
+.Results {
+    background-color:#1abc9c;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20vw 10vw 20vw 20vw 10vw 20vw;
+    grid-template-rows: 50vh 5vh 15vh 10vh 20vh;
 }
 
 .TitleHeader {
@@ -36,22 +60,24 @@
     grid-column: 2 / 6;
 }
 
+.AnswerQuestionTitle {
+    color:white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 5vw;
+    text-shadow: 3px 3px black;
+    justify-content: center;
+    align-self: center;
+    grid-row: 1 / 2;
+    grid-column: 2 / 6;
+}
+
 .Description {
     color:white;
     font-family: 'Fira Sans', sans-serif;
     font-size: 3vw;
     text-shadow: 3px 3px black;
-    align-self: center;
-    grid-row: 2 / 3;
-    grid-column: 2 / 6;
-}
-
-.nothing {
-    color:white;
-    font-family: 'Fira Sans', sans-serif;
-    justify-content: center;
-    font-size: 30px;
-    grid-row: 3 / 4;
+    /*align-self: center;*/
+    grid-row: 2 / 4;
     grid-column: 2 / 6;
 }
 
@@ -103,6 +129,32 @@
     font-size: 20px;
 }
 
+.NoButton {
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+    height: 65%;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    border-radius: 12px;
+    min-width: 30%;
+    min-height: 30%;
+    font-size: 20px;
+}
+
+.YesButton {
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
+    height: 65%;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    border-radius: 12px;
+    min-width: 30%;
+    min-height: 30%;
+    font-size: 20px;
+}
+
 .AskQuestionInput {
     border-radius: 10px;
     grid-row: 3 / 4;
@@ -126,7 +178,7 @@
 }
 
 .BackButton {
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
     grid-column: 3 / 4;
     height: 65%;
     width: 80%;
@@ -139,7 +191,7 @@
 }
 
 .FinalCreate {
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
     grid-column: 4 / 5;
     height: 65%;
     width: 80%;
@@ -150,3 +202,4 @@
     min-width: 30%;
     min-height: 30%;
 }
+
