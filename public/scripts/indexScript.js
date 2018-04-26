@@ -5,7 +5,7 @@ goToAskQuestionButton.addEventListener("click", function() {
   window.location.href= "askQuestion.html";
 });
 
-goToAnswerGameButton.addEventListener("click", function() {
+goToAnswerQuestionButton.addEventListener("click", function() {
   console.log("going to play game");
   window.location.href= "answerQuestion.html";
 });
