@@ -1,10 +1,14 @@
 const goToCreateQuestionButton = document.getElementById("goToCreateQuestion");
-//const goToPlayGameButton = document.getElementById("goToPlayGameButton");
+const goToPlayGameButton = document.getElementById("goToPlayGameButton");
 
 goToCreateQuestionButton.addEventListener("click", function() {
   window.location.href= "createQuestion.html";
   
 });
+
+//goToPlayGameButton.addEventListener("click", function() {
+//  window.location.href= "playGame.html";
+//});
 
 /*let src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js";
   // Initialize Firebase
