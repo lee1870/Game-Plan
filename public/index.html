@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAR2FdadMlQgqJAzKJF0mHZGniMMBMS5Rk",
+    authDomain: "game-plan-4263.firebaseapp.com",
+    databaseURL: "https://game-plan-4263.firebaseio.com",
+    projectId: "game-plan-4263",
+    storageBucket: "game-plan-4263.appspot.com",
+    messagingSenderId: "335501876781"
+  };
+  firebase.initializeApp(config);
+</script>
+
   <body>
     <h1>Welcome to Game Plan!</h1>
     <p>You aren't welcome here!</p>
     <p>But you're probably here for a reason! Play a game or make an account to play or just screw off!</p>
     <button>Play Game!</button>
     <button>Create Account!</button>
+    <button id="goToCreateQuestion"> Create a question!</button>
+    <script src="scripts/indexScript.js"></script>
   </body>
 </html>
 
-<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<!--script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
 <script>
   // Initialize Firebase
   var config = {
@@ -31,7 +47,7 @@
     <body>
         <h1> TEST </h1>
         <pre id='data'></pre>
-        <script src="script.js"></script>
+        <script src="../script.js"></script>
     </body>
-</html>
+</html-->
 
