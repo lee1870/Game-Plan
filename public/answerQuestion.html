@@ -13,13 +13,14 @@
   };
   firebase.initializeApp(config);
 </script>
-    <label id="displayQuestion">Yo</label>
 <head>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 </head>
   <body class = "AnswerQuestion">
     <Text class="AnswerQuestionTitle">Would you press the button if...</Text>
+    <label class="DisplayNameLabel" id="displayName"></label>
+    <label class="QuestionLabel" id="displayQuestion"></label>
     <!--<button id="createQuestion">Make a Question!</button>-->
     <button class="NoButton" id="dontClickButton">I would not!</button>
     <button class="YesButton" id="clickButton"> I would!</button>

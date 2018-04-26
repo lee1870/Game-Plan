@@ -36,6 +36,7 @@ function readFromDB() {
         localStorage.setItem("numNo", numNo);
         localStorage.setItem("numYes",numYes);
         document.getElementById("displayQuestion").innerHTML = question;
+        document.getElementById("displayName").innerHTML = user;
         // Get the base page set up
     });
 }
