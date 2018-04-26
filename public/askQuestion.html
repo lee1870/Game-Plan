@@ -19,14 +19,11 @@
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 </head>
   <body class="AskQuestion">
-    <h1>So you want to make a question?</h1>
-    <p>Well you can make a button if you REEEEEAAAALY want to<br>
-      Question:<br><p>
-    <input type="text" name ="inputQuestion" id = "inputQuestion"><br>
-    <p>Who's Askin':<p><br>
-    <input type="text" name ="inputUser" id = "inputUser"><br>
-    <button id="createQuestion"> Create a question!</button>
-    <button id="backToIndex">Go Back to Main Page</button>
+    <Text class="AskQuestionTitle">What are your conditions?</Text>
+    <textarea class="AskQuestionInput" type="text" name ="inputQuestion" id = "inputQuestion" placeholder="Example: You get a thousand dollars, but you also shrink by an inch."></textarea>
+    <textarea class="DisplayNameInput" type="text" name ="inputUser" id = "inputUser" placeholder="Who's Asking?"></textarea>
+    <button class="FinalCreate" id="createQuestion"> Create Question</button>
+    <button class="BackButton" id="backToIndex">Go Back</button>
     <script src="scripts/askQuestionScript.js"></script>
   </body>
 </html>

@@ -11,13 +11,24 @@
     text-align: center;
     display: grid;
     grid-template-columns: 20vw 10vw 20vw 20vw 10vw 20vw;
-    grid-template-rows: 50vh 15vh 10vh 10vh 15vh;
+    grid-template-rows: 50vh 5vh 15vh 10vh 10vh 10vh;
 }
 
 .TitleHeader {
     color:white;
     font-family: 'Fira Sans', sans-serif;
     font-size: 8vw;
+    text-shadow: 3px 3px black;
+    justify-content: center;
+    align-self: center;
+    grid-row: 1 / 2;
+    grid-column: 2 / 6;
+}
+
+.AskQuestionTitle {
+    color:white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 5vw;
     text-shadow: 3px 3px black;
     justify-content: center;
     align-self: center;
@@ -52,7 +63,7 @@
     align-self: center;
     justify-self: center;
     border-radius: 12px;
-    font-size: 2vh;
+    font-size: 20px;
 }
 
 .SignupButton {
@@ -90,4 +101,52 @@
     min-width: 30%;
     min-height: 30%;
     font-size: 20px;
+}
+
+.AskQuestionInput {
+    border-radius: 10px;
+    grid-row: 3 / 4;
+    grid-column: 3 / 5;
+    height: 80%;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+}
+
+.DisplayNameInput {
+    border-radius: 10px;
+    grid-row: 2 / 3;
+    grid-column: 3 / 5;
+    height: 80%;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+}
+
+.BackButton {
+    grid-row: 5 / 6;
+    grid-column: 3 / 4;
+    height: 65%;
+    width: 80%;
+    border-radius: 12px;
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+    min-width: 30%;
+    min-height: 30%;
+}
+
+.FinalCreate {
+    grid-row: 5 / 6;
+    grid-column: 4 / 5;
+    height: 65%;
+    width: 80%;
+    border-radius: 12px;
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+    min-width: 30%;
+    min-height: 30%;
 }
