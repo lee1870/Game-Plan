@@ -13,14 +13,16 @@
   };
   firebase.initializeApp(config);
 </script>
-
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
   <body>
-    <h1>Welcome to Game Plan!</h1>
-    <p>You aren't welcome here!</p>
-    <p>But you're probably here for a reason! Play a game or make an account to play or just screw off!</p>
-    <button>Play Game!</button>
-    <button>Create Account!</button>
-    <button id="goToCreateQuestion"> Create a question!</button>
+    <h1>Poll the World</h1>
+    <h2>Ask and Answer the world's questions!</h2>
+    <button class="LoginButton">Login</button>
+    <button class="SignupButton">Signup</button>
+    <!--<button class="CreateQuestionButton" id="goToCreateQuestion"> Create a question!</button>-->
     <script src="scripts/indexScript.js"></script>
   </body>
 </html>
