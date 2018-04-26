@@ -36,20 +36,23 @@ function readFromDB() {
 
 clickTheButton.addEventListener("click", function() {
   console.log(question);
-  console.log(numYes);
-  console.log(numNo);
+  console.log("NumYes: " + numYes);
+  console.log("NumNo: " + numNo);
   numYes = numYes + 1;
   window.location.href= "index.html";
 });
 
 dontClickTheButton.addEventListener("click", function() {
   numNo = numNo + 1;
+  console.log(question);
+  console.log("NumYes: " + numYes);
+  console.log("NumNo: " + numNo);
 });
 
 newQuestion.addEventListener("click", function() {
   readFromDB();
   console.log(question);
-  console.log(numYes);
-  console.log(numNo);
+  console.log("NumYes: " + numYes);
+  console.log("NumNo: " + numNo);
   //re render the page
 });
