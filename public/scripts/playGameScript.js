@@ -1,7 +1,7 @@
 const clickTheButton = document.getElementById("clickButton");
 const dontClickTheButton = document.getElementById("dontClickButton");
-const postComment = document.getElementById("postComment");
-const commentField = document.getElementById("inputComment");
+//const postComment = document.getElementById("postComment");
+//const commentField = document.getElementById("inputComment");
 //const goToPlayGameButton = document.getElementById("goToPlayGameButton");
 
 clickTheButton.addEventListener("click", function() {
@@ -10,8 +10,4 @@ clickTheButton.addEventListener("click", function() {
 
 dontClickTheButton.addEventListener("click", function() {
   
-});
-
-postComment.addEventListener("click",function() {
-
 });
