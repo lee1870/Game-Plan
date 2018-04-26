@@ -1,4 +1,4 @@
-body {
+.index {
     background-color:#1abc9c;
     text-align: center;
     display: grid;
@@ -6,7 +6,7 @@ body {
     grid-template-rows: 50vh 15vh 10vh 10vh 15vh;
 }
 
-h1 {
+.TitleHeader {
     color:white;
     font-family: 'Fira Sans', sans-serif;
     font-size: 8vw;
@@ -17,7 +17,7 @@ h1 {
     grid-column: 2 / 6;
 }
 
-h2 {
+.Description {
     color:white;
     font-family: 'Fira Sans', sans-serif;
     font-size: 3vw;
@@ -27,7 +27,7 @@ h2 {
     grid-column: 2 / 6;
 }
 
-p {
+.nothing {
     color:white;
     font-family: 'Fira Sans', sans-serif;
     justify-content: center;
@@ -39,17 +39,43 @@ p {
 .LoginButton {
     grid-row: 4 / 5;
     grid-column: 3 / 4;
-    height: 50%;
+    height: 65%;
     width: 80%;
     align-self: center;
     justify-self: center;
+    border-radius: 12px;
+    font-size: 20px;
 }
 
 .SignupButton {
     grid-row: 4 / 5;
     grid-column: 4 / 5;
-    height: 50%;
+    height: 65%;
     width: 80%;
     align-self: center;
     justify-self: center;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.AskQuestionsButton {
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+    height: 65%;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.AnswerQuestionsButton {
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
+    height: 65%;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    border-radius: 12px;
+    font-size: 20px;
 }

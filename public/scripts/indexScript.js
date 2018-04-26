@@ -3,7 +3,6 @@ const goToCreateQuestionButton = document.getElementById("goToCreateQuestion");
 
 goToCreateQuestionButton.addEventListener("click", function() {
   window.location.href= "createQuestion.html";
-  
 });
 
 /*let src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js";
