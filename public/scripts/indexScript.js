@@ -6,9 +6,10 @@ goToCreateQuestionButton.addEventListener("click", function() {
   
 });
 
-//goToPlayGameButton.addEventListener("click", function() {
-//  window.location.href= "playGame.html";
-//});
+goToPlayGameButton.addEventListener("click", function() {
+  console.log("going to play game");
+  window.location.href= "playGame.html";
+});
 
 /*let src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js";
   // Initialize Firebase
