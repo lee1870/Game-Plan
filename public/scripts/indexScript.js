@@ -1,13 +1,13 @@
-const goToCreateQuestionButton = document.getElementById("goToCreateQuestion");
-const goToPlayGameButton = document.getElementById("goToPlayGameButton");
+const goToAskQuestionButton = document.getElementById("goToAskQuestion");
+const goToAnswerQuestionButton = document.getElementById("goToAnswerQuestion");
 
-goToCreateQuestionButton.addEventListener("click", function() {
-  window.location.href= "createQuestion.html";
+goToAskQuestionButton.addEventListener("click", function() {
+  window.location.href= "askQuestion.html";
 });
 
-goToPlayGameButton.addEventListener("click", function() {
+goToAnswerGameButton.addEventListener("click", function() {
   console.log("going to play game");
-  window.location.href= "playGame.html";
+  window.location.href= "answerQuestion.html";
 });
 
 /*let src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js";
