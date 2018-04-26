@@ -3,7 +3,6 @@ const goToPlayGameButton = document.getElementById("goToPlayGameButton");
 
 goToCreateQuestionButton.addEventListener("click", function() {
   window.location.href= "createQuestion.html";
-  
 });
 
 //goToPlayGameButton.addEventListener("click", function() {
